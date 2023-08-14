@@ -1,11 +1,23 @@
 #include <Arduino.h>
 
+// Objects declaration
+// Monitor
+// sensors
+// etc......
+
+// Base veriables for working
+unsigned int waterInTemp;     // water temperature from radiator to engine in Celsius
+unsigned int waterOutTemp;    // water temperature from engine to radiator in Celsius
+unsigned int exhaustsGasTemp; // temperature of gases in engines exhaust system in Celsius
+unsigned int fuelConsumption; // consumption of disel in l/hour
+unsigned int tahometer;       // Engines RPM
+unsigned int engPower;        // Torque N/sek
+
 // put function declarations here:
-int myFunction(int, int);
+//
 
 void setup() {
   // put your setup code here, to run once:
-  int result = myFunction(2, 3);
 }
 
 void loop() {
@@ -13,6 +25,4 @@ void loop() {
 }
 
 // put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
-}
+//
