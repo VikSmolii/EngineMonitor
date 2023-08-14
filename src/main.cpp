@@ -1,3 +1,7 @@
+/*
+The core of project is Espressif ESP32 Chip
+*/
+
 #include <Arduino.h>
 
 // Objects declaration
